@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<?xdevuiml version="1.0"?>
+<?template NONE?>
+<?import com.vaadin.flow.component.button.Button?>
+<?import com.vaadin.flow.component.orderedlayout.VerticalLayout?>
+<VerticalLayout xmlns:x="http://xml.xdev-software.com/xdevuiml" x:name="MainLayout" justifyContentMode="com.vaadin.flow.component.orderedlayout.FlexComponent.JustifyContentMode.CENTER" defaultHorizontalComponentAlignment="com.vaadin.flow.component.orderedlayout.FlexComponent.Alignment.CENTER" x:route="">
+    <x:constraints zpos="0" width="100%" height="100%" />
+    <x:styles>
+        <entry name="background" value="radial-gradient(circle, rgba(126,114,177,1) 0%, rgba(48,39,87,1) 100%)" />
+    </x:styles>
+    <Button x:themeVariants="LUMO_PRIMARY" x:name="button" text="Open Swagger UI">
+        <x:icon src="com.vaadin.flow.component.icon.VaadinIcon#EXTERNAL_LINK" />
+        <x:constraints width="0px" height="0px" flex-grow="0.0" />
+        <x:event>click.onComponentEvent</x:event>
+    </Button>
+    <Button x:themeVariants="LUMO_PRIMARY" x:name="button2" text="Call GET Endpoint">
+        <x:icon src="com.vaadin.flow.component.icon.VaadinIcon#EXTERNAL_LINK" />
+        <x:constraints width="0px" height="0px" flex-grow="0.0" />
+        <x:event>click.onComponentEvent</x:event>
+    </Button>
+    <Button x:themeVariants="LUMO_PRIMARY" x:name="button3" text="Call POST Endpoint">
+        <x:icon src="com.vaadin.flow.component.icon.VaadinIcon#EXTERNAL_LINK" />
+        <x:constraints width="0px" height="0px" flex-grow="0.0" />
+        <x:event>click.onComponentEvent</x:event>
+    </Button>
+    <Button x:themeVariants="LUMO_PRIMARY" x:name="button4" text="Call POST Endpoint">
+        <x:icon src="com.vaadin.flow.component.icon.VaadinIcon#EXTERNAL_LINK" />
+        <x:constraints width="0px" height="0px" flex-grow="0.0" />
+        <x:event>click.onComponentEvent</x:event>
+    </Button>
+    <Button x:themeVariants="LUMO_PRIMARY" x:name="button5" text="Call POST Endpoint">
+        <x:icon src="com.vaadin.flow.component.icon.VaadinIcon#EXTERNAL_LINK" />
+        <x:constraints width="0px" height="0px" flex-grow="0.0" />
+        <x:event>click.onComponentEvent</x:event>
+    </Button>
+</VerticalLayout>
